@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Formative Assesment 6</title>
+		
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+		
+			/*styling the links*/
+			.link {
+				border: 5px dotted black;
+				text-decoration: none;
+				color: white;
+				font-family: Castellar;
+				font-size: 50px;
+			}
+			
+			#alement {
+				background-color: hotpink;
+			}
+			
+			#alement:visited {
+				background-color: black;
+			}
+			
+			#alement:hover {
+				background-color: pink;
+			}
+			
+			#alement:active {
+				background-color: navy;
+			}
+			
+			#hreflement {
+				background-color: navy;
+			}
+			
+			#hreflement:visited {
+				background-color: black;
+			}
+			
+			#hreflement:hover {
+				background-color: blue;
+			}
+			
+			#hreflement:active {
+				background-color:hotpink;
+			}
+			
+			/*styling the divs*/
+			.divv {
+				border: 3px solid black;
+				width: 50%;
+				height: 200px;
+				text-align: center;
+				font-size: 50px;
+			}
+			
+			#div1 {
+				border-style: double;
+			}
+			
+			#div2 {
+				border-style: solid;
+			}
+			
+			#div1:target {
+				background-color: pink;
+				color: white;
+			}
+			
+			#div2:target {
+				border: 10px dotted green;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<!--a.k.a links-->
+		<a href="#div1" id="alement" class="link">Version 1</a>
+		<a href="#div2" id="hreflement" class="link">Version2</a>
+		
+		<br> <br>
+		
+		<!--Divs-->
+		<div id="div1" class="divv">Div 1</div>
+		
+		<br>
+		
+		<div id="div2" class="divv">Div 2</div>
+		
+	</body>
+</html>
